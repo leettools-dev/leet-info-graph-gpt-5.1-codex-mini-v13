@@ -1,6 +1,6 @@
 ---
 project_name: leet-info-graph-gpt-5.1-codex-mini-v13
-updated_at: 2026-03-09T02:04:19.031938+00:00
+updated_at: 2026-03-09T02:05:30.198462+00:00
 status: in_progress
 ---
 
@@ -351,7 +351,7 @@ The plan store is the source of truth for planning and execution.
 
 ## Requirements
 
-- [ ] Product name (working):** Research Infographic Studio
+- [x] Product name (working):** Research Infographic Studio
 - [ ] an **AI-generated infographic** (visual summary),
 - [ ] an **explanatory article** (structured narrative),
 - [ ] supporting sources** (citations with links/metadata).
