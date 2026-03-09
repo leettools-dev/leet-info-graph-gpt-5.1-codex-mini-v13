@@ -22,8 +22,8 @@ Users can browse a searchable **research history**, revisit any result, and **ex
 
 ## Features
 
-- ✅ AI-generated infographic endpoint with spec data + PNG rendering pipeline
-
+- ✅ AI-generated infographic endpoint with spec data, structured citations, provenance tracking, and PNG rendering pipeline
+- ✅ Frontend result view surfacing confidence notes, provenance timestamps, and source metadata
 ## Getting Started
 
 ### Prerequisites
