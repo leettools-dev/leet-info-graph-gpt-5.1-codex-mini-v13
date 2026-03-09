@@ -1,6 +1,6 @@
 ---
 project_name: leet-info-graph-gpt-5.1-codex-mini-v13
-updated_at: 2026-03-09T02:05:30.198462+00:00
+updated_at: 2026-03-09T02:18:23.672740+00:00
 status: in_progress
 ---
 
@@ -21,6 +21,11 @@ Build a full-stack web application where users sign in with Google, submit resea
 3. **supporting sources** (citations with links/metadata).
 
 Users can browse a searchable **research history**, revisit any result, and **export** (PNG/PDF for infographic, Markdown/PDF for article, JSON/CSV for citations).
+
+## Bootstrap Quick Start
+- `start.sh`/`stop.sh` for spinning up backend + frontend with logs/pid management
+- `logs/` & `pids/` directories ignored
+- `Dockerfile` + `docker-compose.yml` for running both services
 
 ---
 
