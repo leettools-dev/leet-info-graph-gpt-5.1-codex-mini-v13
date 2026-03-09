@@ -1,6 +1,6 @@
 ---
 project_name: leet-info-graph-gpt-5.1-codex-mini-v13
-updated_at: 2026-03-09T02:30:50.267036+00:00
+updated_at: 2026-03-09T02:32:20.672354+00:00
 status: in_progress
 ---
 
@@ -362,7 +362,7 @@ The plan store is the source of truth for planning and execution.
 - [x] supporting sources** (citations with links/metadata).
 - [x] Reduce the time to go from “question” → “shareable, cited infographic + article”.
 - [x] Provide trustworthy, traceable outputs (citations, confidence, provenance).
-- [ ] Make outputs easy to revisit, refine, and export.
+- [x] Make outputs easy to revisit, refine, and export.
 - [ ] Activation:** ≥ 40% of signed-in users generate at least 1 research result.
 
 ## Acceptance Criteria
