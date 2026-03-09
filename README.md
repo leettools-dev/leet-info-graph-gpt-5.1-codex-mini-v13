@@ -12,40 +12,34 @@
 
 ### 1) Summary
 
-Build a full-stack web application where users sign in with Google, submit researc...
+Build a full-stack web application where users sign in with Google, submit research prompts, and receive:
+
+1. an **AI-generated infographic** (visual summary),
+2. an **explanatory article** (structured narrative),
+3. **supporting sources** (citations with links/metadata).
+
+Users can browse a searchable **research history**, revisit any result, and **export** (PNG/PDF for infographic, Markdown/PDF for article, JSON/CSV for citations).
 
 ## Features
 
-*Features will be documented here as they are implemented.*
+- ✅ AI-generated infographic endpoint with spec data + PNG rendering pipeline
 
 ## Getting Started
 
 ### Prerequisites
 
-*Prerequisites will be documented here.*
+- Python 3.11+
 
 ### Installation
 
 ```bash
-# Installation instructions will be added
+pip install -r backend/requirements.txt
+cd frontend
+npm install
 ```
 
 ### Usage
 
 ```bash
-# Usage examples will be added
+./start.sh
 ```
-
-## Development
-
-See `.leet/plans/` for the current development status.
-
-## Testing
-
-```bash
-# Test instructions will be added
-```
-
-## License
-
-MIT

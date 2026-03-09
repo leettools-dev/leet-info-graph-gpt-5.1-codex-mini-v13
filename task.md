@@ -14,6 +14,11 @@ Build a full-stack web application where users sign in with Google, submit resea
 
 Users can browse a searchable **research history**, revisit any result, and **export** (PNG/PDF for infographic, Markdown/PDF for article, JSON/CSV for citations).
 
+## Bootstrap Quick Start
+- `start.sh`/`stop.sh` for spinning up backend + frontend with logs/pid management
+- `logs/` & `pids/` directories ignored
+- `Dockerfile` + `docker-compose.yml` for running both services
+
 ---
 
 ### 2) Goals and Success Metrics

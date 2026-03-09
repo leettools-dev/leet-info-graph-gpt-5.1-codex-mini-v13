@@ -1,0 +1,19 @@
+{
+  "name": "research-infographic-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "dependencies": {
+    "react": "18.3.3",
+    "react-dom": "18.3.3",
+    "react-scripts": "5.0.2"
+  },
+  "devDependencies": {
+    "@testing-library/react": "14.0.0",
+    "@testing-library/jest-dom": "6.0.0"
+  }
+}
