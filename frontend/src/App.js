@@ -6,6 +6,7 @@ function App() {
   const [result, setResult] = useState(null);
   const [status, setStatus] = useState("idle");
   const [error, setError] = useState("");
+  const API_BASE_URL = process.env.REACT_APP_BACKEND_URL || "http://localhost:8000";
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -13,7 +14,7 @@ function App() {
     setError("");
 
     try {
-      const response = await fetch("http://localhost:8000/api/v1/infographics/generate", {
+      const response = await fetch(`${API_BASE_URL}/api/v1/infographics/generate`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ prompt }),
