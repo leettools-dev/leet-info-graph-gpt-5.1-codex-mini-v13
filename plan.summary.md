@@ -1,7 +1,7 @@
 ---
 project_name: leet-info-graph-gpt-5.1-codex-mini-v13
-updated_at: 2026-03-09T02:33:18.040770+00:00
-status: done
+updated_at: 2026-03-09T02:36:18.537156+00:00
+status: in_progress
 ---
 
 # Goal Description
@@ -364,10 +364,11 @@ The plan store is the source of truth for planning and execution.
 - [x] Provide trustworthy, traceable outputs (citations, confidence, provenance).
 - [x] Make outputs easy to revisit, refine, and export.
 - [x] Activation:** ≥ 40% of signed-in users generate at least 1 research result.
+- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
 
 ## Acceptance Criteria
 
-- [x] All requirements implemented
-- [x] All features have unit tests
-- [x] README.md documents all features
-- [x] All tests pass
+- [ ] All requirements implemented
+- [ ] All features have unit tests
+- [ ] README.md documents all features
+- [ ] All tests pass
